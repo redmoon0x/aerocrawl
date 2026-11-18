@@ -3,7 +3,7 @@
 A lightweight, high-performance web scraping and crawling engine — a modern alternative to Firecrawl. Converts websites to LLM-ready markdown, extracts structured data with AI, and uses Chrome DevTools Protocol (CDP) for zero-dependency browser automation.
 
 [![License](https://img.shields.io/badge/license-ISC-blue?style=flat-square)](LICENSE)
-[![GitHub stars](https://img.shields.io/github/stars/deviprasadshetty-dev/aerocrawl?style=flat-square)](https://github.com/deviprasadshetty-dev/aerocrawl)
+[![GitHub stars](https://img.shields.io/github/stars/redmoon0x/aerocrawl?style=flat-square)](https://github.com/redmoon0x/aerocrawl)
 
 ## Table of Contents
 - [Features](#features)
@@ -47,8 +47,8 @@ As an AI agent, you can use AeroCrawl in two ways:
 If you need to scrape something immediately in the terminal:
 ```bash
 # 1. Install
-Windows: iwr https://raw.githubusercontent.com/deviprasadshetty-dev/aerocrawl/main/install.ps1 -OutFile install.ps1; .\install.ps1
-Mac/Linux: curl -fsSL https://raw.githubusercontent.com/deviprasadshetty-dev/aerocrawl/main/install.sh -o install.sh && bash install.sh
+Windows: iwr https://raw.githubusercontent.com/redmoon0x/aerocrawl/main/install.ps1 -OutFile install.ps1; .\install.ps1
+Mac/Linux: curl -fsSL https://raw.githubusercontent.com/redmoon0x/aerocrawl/main/install.sh -o install.sh && bash install.sh
 
 # 2. Scrape
 aerocrawl https://example.com
@@ -68,20 +68,20 @@ aerocrawl --generate-mcp-config
 **Option 1: Use install scripts (Recommended)**
 ```bash
 # Windows (PowerShell)
-iwr https://raw.githubusercontent.com/deviprasadshetty-dev/aerocrawl/main/install.ps1 -OutFile install.ps1; .\install.ps1
+iwr https://raw.githubusercontent.com/redmoon0x/aerocrawl/main/install.ps1 -OutFile install.ps1; .\install.ps1
 
 # Mac/Linux
-curl -fsSL https://raw.githubusercontent.com/deviprasadshetty-dev/aerocrawl/main/install.sh -o install.sh && bash install.sh
+curl -fsSL https://raw.githubusercontent.com/redmoon0x/aerocrawl/main/install.sh -o install.sh && bash install.sh
 ```
 
 **Option 2: Manual install**
 ```powershell
 # Windows (PowerShell)
-git clone https://github.com/deviprasadshetty-dev/aerocrawl.git; cd aerocrawl; npm install; npm run build; npm link
+git clone https://github.com/redmoon0x/aerocrawl.git; cd aerocrawl; npm install; npm run build; npm link
 ```
 ```bash
 # Mac/Linux
-git clone https://github.com/deviprasadshetty-dev/aerocrawl.git && cd aerocrawl && npm install && npm run build && npm link
+git clone https://github.com/redmoon0x/aerocrawl.git && cd aerocrawl && npm install && npm run build && npm link
 ```
 
 **Verify:**
@@ -176,7 +176,7 @@ AeroCrawl is not published to the npm registry. Install directly from GitHub:
 ### Step-by-Step
 1. Clone the repo:
    ```bash
-   git clone https://github.com/deviprasadshetty-dev/aerocrawl.git
+   git clone https://github.com/redmoon0x/aerocrawl.git
    ```
 2. Install dependencies:
    ```bash
@@ -193,7 +193,7 @@ AeroCrawl is not published to the npm registry. Install directly from GitHub:
 
 ### Local Project Use
 ```bash
-npm install github:deviprasadshetty-dev/aerocrawl
+npm install github:redmoon0x/aerocrawl
 ```
 
 **Prerequisites:**
